@@ -3,7 +3,7 @@
 
 <br><br>
 
-####View a demo [here](http://sirbaaron.github.io/ripple-js/demo/)
+#### View a demo [here](http://sirbaaron.github.io/ripple-js/demo/)
 
 <br><br><br>
 
@@ -28,7 +28,7 @@ To customize the ripple effect you can set the following tags on your ripple ele
 * **onrippleclick**<br>You can specify JavaScript that executes when the ripple gets released in this attribute. It works like _onclick_ and is a short alternative to listening for a ripple-button-click event.
 
 <br><br><br>
-###Methods
+### Methods
 
 * **registerRipples()**<br>Call this method to register ripple elements afterwards <p>°If you add ripple elements after the document has loaded, you then need to call this function. The function gets called auomatically on initial load.<br>°_Example:_ 
 ```
@@ -38,7 +38,7 @@ ripple.registerRipples();
 * **ripple(element)**<br>With this function you can trigger a ripple programatically.<p>°The only argument it takes is the element you want to start the ripple at. This element needs to have been registered before!<br>°The ripple starts at the center of the element. This function is useful when you want to click an element based on key presses.<br>°_Example:_ `ripple.ripple(document.getElementById("someEl"));`
 
 <br><br><br>
-###Events
+### Events
 
 * **ripple-button-click**<br>This event gets fired when a ripple is released<p>The only parameter is `target`, which is the element that got clicked
 
